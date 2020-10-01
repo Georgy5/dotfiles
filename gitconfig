@@ -12,6 +12,8 @@
 [core]
   pager = less -FRSX
 	editor = subl -n -w  >/dev/null 2>&1
+	autocrlf = input
+	safecrlf = true
 
 [alias]
   co = checkout
