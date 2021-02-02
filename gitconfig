@@ -48,6 +48,10 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+
+[pull]
+  rebase = false
+
 [user]
 	email = kgk86@hotmail.com
 	name = Karl Keller
